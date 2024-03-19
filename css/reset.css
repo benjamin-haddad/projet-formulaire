@@ -1,0 +1,117 @@
+/* Reset CSS */
+/* reset de base */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+/* 1 rem = 10px, donc 62.5% de 16px = 10px */
+html {
+    font-size: 62.5%;
+
+
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    /* 16px */
+    font: 1.6rem "roboto slab", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    letter-spacing: 0.1rem;
+    /* espacement entre les letrres */
+    /* background-image: url(../asset/cover-batman.jpg); no-repeat.fixed .center center / cover; */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.6) 50%),
+        url(../asset/cover-batman.jpg)no-repeat fixed center center / cover;
+    height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p figure,
+blockquote,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    text-decoration: none;
+
+}
+
+
+body {
+    background-color: #212121;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+
+
+
+
+
+    /* reset css */
+    /* Element + attr + value */
+    html {
+        font-size: 62.5%;
+        /* 16px * 62.5 = 10.00 */
+    }
+
+    /* prop générale pour mettre en forme la police de base  */
+    body {
+        font: 1.6rem "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        letter-spacing: 0.1rem;
+        line-height: 1.6;
+        margin: 0;
+        background-color: var(--bgmain);
+    }
+
+    /* on supprime toutes les marges par défaut */
+
+
+
+    figure {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    a {
+        color: rgb(171, 18, 18);
+        text-decoration: none;
+    }
+
+    box-sizing: border-box;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+input,
+button {
+    border: 0;
+}
+
+
+input {
+    width: 100%;
+}
+
+button {
+    background: none;
+    color: #fff;
+    font-size: inherit;
+    text-align: center;
+}
