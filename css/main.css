@@ -1,55 +1,56 @@
 @import url(./reset.css);
 
-:root{
+:root {
     --bg-color-main: #202124;
     --bg-color-form: #303134;
     --color-text: #fff;
-} 
-
-body{ 
-background-color: var(--bg-color-main); 
-color: var(--bg-color-text);
-display:grid ;
-grid-template-rows: auto auto 1fr auto;
-color: var(--color-text);
 }
 
-fieldset,aside{
-max-width: 80rem;
-margin: 0 auto 1rem;
+body {
+    background-color: var(--bg-color-main);
+    color: var(--bg-color-text);
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    color: var(--color-text);
+}
+
+fieldset,
+aside {
+    max-width: 80rem;
+    margin: 0 auto 1rem;
 
 }
-aside{
+
+aside {
     max-width: 40rem;
 }
-figure img{
+
+figure img {
     width: 100%;
 }
 
- .wrapper{
+.wrapper {
     display: grid;
     grid-template-columns: 90% 10%;
 
- } 
-header h1, footer p{
+}
+
+header h1,
+footer p {
 
     text-align: center;
 
 }
 
-.search-input, #submit{
+.search-input,
+#submit {
     padding: .5rem;
 }
-.search-input input{
+
+.search-input input {
     line-height: 3rem;
     padding: 0 .5rem;
     background-color: var(--bg-color-form);
     color: var(--color-text);
 }
-
-
-
- 
-
-
 

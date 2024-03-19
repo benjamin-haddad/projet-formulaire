@@ -8,9 +8,9 @@ html {
 
 
     scroll-behavior: smooth;
-}
 
-* {
+
+
     box-sizing: border-box;
 }
 
@@ -101,8 +101,11 @@ img {
 
 input,
 button {
+
+
     border: 0;
-}
+    cursor: button; 
+} 
 
 
 input {
